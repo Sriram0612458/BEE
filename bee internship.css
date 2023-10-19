@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+
+body {
+    margin: 0px;
+}
+
+.why-choose {
+    display: flex;
+
+
+}
+
+.why-choose-us-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.why-choose-sub {
+    height: 100%;
+}
+
+.feedback-section {
+    padding: 40px;
+    background-color: #F8F8F8;
+
+}
+
+.background {
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    padding-top: 30px;
+    width: 60vw;
+
+
+}
+
+.background-1 {
+    background-color: #f8f8f8;
+    height: 100vh;
+    padding-top: 30px;
+    width: 60vw;
+
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+
+
+    min-height: 25vh;
+    background-color: black;
+}
+
+.footer-decp {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-image {
+    width: 30%;
+    max-width: 300px;
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px;
+}
+
+.cardrev {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    min-height: 200px;
+
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-bottom: 0px;
+
+}
+
+.par1 {
+    font-size: 10px;
+    margin-top: 0px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.hed-her {
+    padding: 15px;
+    font-size: 30px;
+}
+
+.cir {
+    margin-left: 10px;
+}
+
+.cir1 {
+    margin-left: 3px
+}
+
+.card-para-rev {
+    font-size: 12px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.card1:hover {
+    background-color: #DDF247;
+
+}
+
+.courosal {
+    display: flex;
+
+}
+
+.sub-bg-for-girl-image {
+    background-color: #101010;
+    height: 100vh;
+    padding-top: 30px;
+    padding: 30px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.sub-bg-for-boy-image {
+    background-color: #101010;
+
+    padding-top: 30px;
+    padding: 30px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    width: 60vw;
+    padding-left: 20px;
+}
+
+.main-bg {
+    display: flex;
+
+}
+
+.main-bg2 {
+    display: flex;
+    min-height: 80%;
+    max-height: 600px;
+}
+
+.background1 {
+    padding-top: 30px;
+    height: 80vh;
+    width: 80vw;
+
+}
+
+.bridge-pic {
+    background-size: cover;
+    width: 55vw;
+    height: 60vh;
+    max-height: 500px;
+
+}
+
+.why-choose-sub-part {
+    margin-top: -5px;
+    display: flex;
+
+}
+
+.para {
+    font-family: Neometric;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.sub-para {
+    color: #101010;
+    font-family: Neometric;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragraph {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    padding-right: 40px;
+
+}
+
+h2 {
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+.main-heading {
+    color: #101010;
+    font-family: Neometric;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.heading-2 {
+    color: #DDF247;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.main-page-description {
+    padding: 30px;
+    padding-top: 70px;
+    padding-left: 40px;
+
+}
+
+.main-page-description2 {
+    padding: 30px;
+    padding-top: 70px;
+    padding-left: 40px;
+
+}
+
+.main-page-button1 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 10px;
+    background: #101010;
+    width: 170px;
+    padding: 10px;
+}
+
+.main-page-button2 {
+    color: #101010;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 10px;
+    background: #ffffff;
+    width: 170px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.main-page-button21 {
+    color: #101010;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    border-width: 0px;
+    border-color: #DDF247;
+    border-radius: 5px;
+    background: #DDF247;
+    width: 200px;
+    padding: 10px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    color: white;
+}
+
+.talk-button {
+    background-color: #DDF252;
+    padding: 10px;
+    border-radius: 8px;
+    color: #101010;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    align-self: flex-end;
+}
+
+.design-elements {
+    margin-top: 40px;
+
+
+}
+
+.boy-image {
+    align-self: flex-start;
+    width: 720px;
+    height: 100%;
+
+    margin-left: -50px;
+}
+
+.girl-image {
+    align-self: flex-end;
+    width: 720px;
+    height: 800px;
+    margin-right: -20px;
+    margin-bottom: -30px;
+}
+
+.logo1 {
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.para1 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px;
+
+
+}
+
+.para2 {
+    font-family: Roboto;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.register {
+    background-color: #f8f8f8;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.regNow {
+    width: 40%;
+    max-width: 400px;
+}
+
+.universities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+    padding: 20px;
+}
+
+.par {
+    color: #101010;
+    font-family: Neometric;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 40px;
+    max-width: 600px;
+}
+
+.back {
+    background: #DDF247;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.parbut {
+    border-radius: 8px;
+    border-width: 0px;
+    background: #FFF;
+    width: 300px;
+    height: 60px;
+    color: #101010;
+    font-family: Neometric;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 5px;
+}
+
+.btn {
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    margin-left: 40px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+
+}
+
+.btn:hover {
+    color: #ffffff;
+}
+
+.a1 {
+    color: #101010;
+    font-size: 30px;
+    font-family: Neometric;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.p1 {
+    color: #101010;
+    font-size: 20px;
+    font-family: Neometric;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.main-heading2 {
+    color: #101010;
+    font-size: 40px;
+    font-family: Neometric;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.uni1 {
+    width: 150px;
+}
+
+.uni2 {
+    width: 180px;
+}
+
+.uni3 {
+    width: 150px;
+}
+
+@media screen and (max-width:750px) {
+    .why-choose {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sub-bg-for-boy-image {
+        display: none;
+    }
+
+    .main-heading2 {
+        font-size: 25px;
+    }
+
+    .bridge-pic {
+        width: 100%;
+    }
+
+    .why-choose-sub {
+
+        align-self: center;
+
+    }
+
+    .universities {
+        overflow: scroll;
+
+
+    }
+
+    .register {
+        flex-direction: column;
+    }
+
+    .regNow {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .para1 {
+        font-size: 25px;
+    }
+
+    .para2 {
+        font-size: 18px;
+        margin-top: -10px;
+    }
+
+    .courosal {
+        flex-direction: column;
+    }
+
+    .uni3 {
+        margin: 20px;
+    }
+
+    .back {
+        flex-direction: column;
+    }
+
+    .par {
+        font-size: 23px;
+        padding: 0px;
+    }
+
+    .para {
+        font-size: 15px;
+        margin-left: 0px;
+        font-family: "Sans-Serif";
+    }
+
+    .sub-para {
+        font-size: 15px;
+        font-family: "Sans-Serif";
+    }
+
+    .parbut {
+        padding: 0px;
+        justify-content: center;
+        width: 200px;
+    }
+
+    .main-bg2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-bg-for-boy-image {
+        width: 100%;
+
+
+    }
+
+    .main-page-description2 {
+        padding: 10px;
+        padding-top: 0px;
+        padding-left: 0px;
+
+    }
+
+    .background-1 {
+        width: 100vw;
+
+    }
+
+    .feedback-section {
+        flex-direction: column;
+    }
+
+    .hed-her {
+        font-size: 26px;
+    }
+
+    .courosal {
+        align-self: center;
+    }
+
+    .cardrev {
+        width: 100%;
+    }
+
+    .footer-decp {
+        flex-wrap: wrap;
+    }
+
+    .sub-bg-for-girl-image {
+        display: none;
+    }
+
+    .background {
+        width: 100vw;
+
+    }
+
+    .main-heading {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .main-page-description {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .sub-para {
+        padding-bottom: 15px;
+    }
+
+    .main-page-button1 {
+        font-size: 12px;
+        width: 120px;
+    }
+
+    .main-page-button2 {
+        font-size: 12px;
+        width: 120px;
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    .main-page-description2 {
+        padding: 20px;
+    }
+
+    .visa {
+        margin-bottom: 30px;
+    }
+
+    .a1 {
+        font-size: 25px;
+    }
+
+    .p1 {
+        font-size: 15px;
+    }
+
+    .why-choose-us-bg {
+        margin-top: 40px;
+    }
+
+}
